@@ -37,7 +37,7 @@
 
 
 
-public class A3variableClass {
+public class A3VariableClass {
 //    类变量
     static long cc = 100;
 
@@ -55,7 +55,7 @@ public class A3variableClass {
 //    访问修饰符 关键字 返回类型 方法名 String类 字符串数组
     public static void main(String[] args) {
 
-        A3variableClass a3 = new A3variableClass();
+        A3VariableClass a3 = new A3VariableClass();
         a3.pup();
 
         System.out.println(cc);   // 局部变量就不可以直接使用
