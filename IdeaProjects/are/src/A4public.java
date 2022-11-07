@@ -1,5 +1,9 @@
 // 访问修饰符
 public class A4public {
+    //    访问修饰符 关键字 返回类型 方法名 String类型 字符串数组
+    public static void main(String[] args) {
+
+    }
     /*
     修饰符用来定义类、方法或者变量
     Java语言提供了很多修饰符，主要分为以下两类：
@@ -13,10 +17,4 @@ public class A4public {
         非访问修饰符
 
      */
-
-
-//    访问修饰符 关键字 返回类型 方法名 String类型 字符串数组
-    public static void main(String[] args) {
-
-    }
 }
