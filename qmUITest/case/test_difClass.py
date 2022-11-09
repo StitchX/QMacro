@@ -1,6 +1,5 @@
 import time
 
-import pytest
 from selenium import webdriver
 import pytest
 
