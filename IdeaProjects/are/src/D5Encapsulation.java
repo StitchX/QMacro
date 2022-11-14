@@ -16,6 +16,7 @@ public class D5Encapsulation {
         return aa;
     }
 
+//这些方法被称为getter和setter方法。
     public String getBb() {
         return bb;
     }
@@ -31,6 +32,9 @@ public class D5Encapsulation {
 
 
     public static void main(String[] args) {
-        System.out.println("封装一哈");
+        D5Encapsulation d5 = new D5Encapsulation();
+
+        d5.setAa(9);
+        System.out.println(d5.getAa());
     }
 }
