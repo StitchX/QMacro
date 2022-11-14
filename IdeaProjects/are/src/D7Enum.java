@@ -16,9 +16,10 @@ public class D7Enum {
     public static void main(String[] args) {
         Color c1 = Color.BLUE;
         System.out.println(c1);
+//        System.out.println(Color.RED);
 
         Season s1 = Season.AUTUMN;
-//        System.out.println(s1);
+        System.out.println(s1);
 
 //        3. 迭代枚举元素
 //        for (Color cc:Color.values()){
@@ -27,13 +28,13 @@ public class D7Enum {
 
 
 //        4. values(), ordinal() 和 valueOf() 方法
-//        Season[] s2 = Season.values();
+        Season[] s2 = Season.values();
 //        System.out.println(s1.ordinal());  // 2，返回下标
 //        // 使用 valueOf() 返回枚举常量，不存在的会报错 IllegalArgumentException
 //        System.out.println(Color.valueOf("BLUE"));
 
 
-        c1.info();
+//        c1.info();
 
     }
 
