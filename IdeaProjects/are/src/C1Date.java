@@ -1,9 +1,8 @@
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.SimpleTimeZone;
 
 // 日期和时间
-public class C1Data {
+public class C1Date {
     /*
     1、
     java.util 包提供了 Date 类来封装当前的日期和时间。 Date 类提供两个构造函数来实例化 Date 对象。

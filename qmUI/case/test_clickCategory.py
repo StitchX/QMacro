@@ -1,5 +1,4 @@
 import time
-
 from selenium import webdriver
 import pytest
 
@@ -21,6 +20,7 @@ class TestDemo():
         wd.quit()
 
     # 打开系统公告
+    @pytest.mark.usefixtures('login')
     def test_xxgg(self):
         xtgg = wd.find_element(by='xpath',
                         value='//*[@id="app"]/div/div[2]/div/div/div[2]/section[1]/ul/li[1]/a/div/div/div/img')

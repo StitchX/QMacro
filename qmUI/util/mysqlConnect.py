@@ -1,6 +1,5 @@
 import pymysql
 
-# 打开数据库连接
 connect = pymysql.connect(
     host='47.105.92.166',
     user = 'root',
@@ -12,7 +11,6 @@ connect = pymysql.connect(
 cursor = connect.cursor()
 
 # 执行execute查询
-
 cursor.execute("select acc_nickname from tbl_user where id=1")
-data = cursor.fetchone()
-print(data[0])
+datas = cursor.fetchone()
+print(datas[0])

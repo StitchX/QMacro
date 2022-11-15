@@ -23,7 +23,7 @@ class TestDemo:
         yield
         wd.quit()
 
-    # @pytest.mark.usefixtures('login')
+    @pytest.mark.usefixtures('login')
     def test_search(self):
         # search = wd.find_element(by='xpath', value='//*[@id="app"]/div/div[1]/div/div/div/div[3]/div')
         # search.click()
@@ -31,22 +31,26 @@ class TestDemo:
                                 value='//*[@id="app"]/div/div/div[1]/div/div/div/div[2]/form/div/div/div/div[2]/div/input')
         query.send_keys('Qmacro')
         query.send_keys(Keys.ENTER)
-        # time.sleep(1)
+        time.sleep(1)
+        wd.refresh()
+        time.sleep(1)
         img2 = wd.get_screenshot_as_png()
         with open('../log/搜索.png', 'wb') as f:
             f.write(img2)
 
-    # @pytest.mark.usefixtures('login')
+    @pytest.mark.usefixtures('login')
     def test_search_long(self):
 
         query = wd.find_element(by='xpath',
                                 value='//*[@id="app"]/div/div/div[1]/div/div/div/div[2]/form/div/div/div/div[2]/div/input')
 
-        query.clear()
-        time.sleep(1)
-        query.send_keys('好好好好好好')
+        # query.clear()
+        # time.sleep(1)
+        query.send_keys('好好好噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢哦哦哦噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢哦哦好好好')
         time.sleep(2)
         query.send_keys(Keys.ENTER)
+        time.sleep(1)
+        wd.refresh()
         time.sleep(1)
         img2 = wd.get_screenshot_as_png()
         with open('../log/搜索_长.png', 'wb') as f:

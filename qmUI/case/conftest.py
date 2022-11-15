@@ -1,14 +1,12 @@
-from selenium import webdriver
-import pytest
 import time
 
-@pytest.fixture()
+from selenium import webdriver
+
 def login():
     wd = webdriver.Chrome()
     try:
         wd.get("https://www.qmacro.cn/app/#/post")
-        time.sleep(1)
+        time.sleep(2)
     except:
         print('')
-    yield
-    wd.quit()
+    yield wd.close()
