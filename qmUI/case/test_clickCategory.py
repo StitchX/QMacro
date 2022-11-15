@@ -1,8 +1,6 @@
 import time
 import pytest
 import conftest
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
 wd = conftest.wd
 
@@ -15,10 +13,8 @@ class TestDemo():
     @pytest.mark.parametrize('dataCat',dataCats)
     @pytest.mark.usefixtures('login')
     def test_demo(self,dataCat):
-        global dataCats
-        # category = WebDriverWait(wd,10,0.5).until(EC.visibility_of_element_located(by='xpath',
-        #                     value=dataCat))
 
+        global dataCats
         category = wd.find_element(by='xpath',
                             value=dataCat)
         category.click()
