@@ -2,45 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17dc3241-d3d3-4313-95da-2ca1d190b013" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case/test_clickCategory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case/test_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/搜索.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/首页.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IdeaProjects/are/src/C1Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IdeaProjects/are/src/C1Date.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmAppTest/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmAppTest/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmAppTest/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmAppTest/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmAppTest/.idea/qmAppTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmAppTest/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmAppTest/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmAppTest/util/logPrint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmAppTest/util/mysqlConnect.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmAppTest/util/sendMail.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmUITest/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmUITest/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmUITest/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmUITest/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmUITest/.idea/qmUITest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmUITest/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmUITest/case/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmUITest/case/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmUITest/case/test_difClass.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmUITest/case/test_h5search.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmUITest/common/h5_login.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmUITest/log/搜索.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmUITest/log/搜索_长.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmUITest/log/首页.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmUITest/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmUITest/util/logPrint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmUITest/util/mysqlConnect.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qmUITest/util/sendMail.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/searchData.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/test_clickCategory.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_clickCategory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/test_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +42,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python 测试.test_search.TestDemo 的 Python 测试">
+  <component name="RunManager" selected="Python 测试.test_clickCategory.TestDemo.test_demo 的 Python 测试">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="qmUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,27 +56,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="qmAppTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,7 +139,7 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="test_diffCategory.TestDemo.test_xxgg 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="test_clickCategory.TestDemo 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="qmAppTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,11 +149,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_diffCategory.TestDemo.test_xxgg&quot;" />
+      <option name="_new_target" value="&quot;test_clickCategory.TestDemo&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_search.TestDemo 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="test_clickCategory.TestDemo.test_demo 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="qmAppTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,59 +163,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_search.TestDemo&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_search.TestDemo.test_hpjy 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="qmAppTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_search.TestDemo.test_hpjy&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_search.TestDemo.test_search 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="qmAppTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_search.TestDemo.test_search&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_search.TestDemo.test_search_long 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="qmAppTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_search.TestDemo.test_search_long&quot;" />
+      <option name="_new_target" value="&quot;test_clickCategory.TestDemo.test_demo&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python 测试.test_search.TestDemo 的 Python 测试" />
-        <item itemvalue="Python 测试.test_search.TestDemo.test_search_long 的 Python 测试" />
-        <item itemvalue="Python 测试.test_diffCategory.TestDemo.test_xxgg 的 Python 测试" />
-        <item itemvalue="Python 测试.test_search.TestDemo.test_search 的 Python 测试" />
-        <item itemvalue="Python 测试.test_search.TestDemo.test_hpjy 的 Python 测试" />
+        <item itemvalue="Python 测试.test_clickCategory.TestDemo.test_demo 的 Python 测试" />
+        <item itemvalue="Python 测试.test_clickCategory.TestDemo 的 Python 测试" />
       </list>
     </recent_temporary>
   </component>
@@ -283,6 +183,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667458974330</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changes">
+      <created>1668482792452</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668482792452</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,7 +198,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -298,5 +212,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
 </project>
