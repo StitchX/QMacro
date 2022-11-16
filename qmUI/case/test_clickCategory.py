@@ -5,7 +5,7 @@ import conftest
 wd = conftest.wd
 
 @pytest.mark.usefixtures('login')
-class TestDemo():
+class TestCategory():
 
     dataCats = ('//*[@id="app"]/div/div[2]/div/div/div[2]/section[1]/ul/li[1]/a/div/div/div',
                '//*[@id="app"]/div/div[2]/div/div/div[2]/section[1]/ul/li[2]/a/div/div/div',
@@ -14,7 +14,7 @@ class TestDemo():
     @pytest.mark.usefixtures('login')
     def test_demo(self,dataCat):
 
-        global dataCats
+        # global dataCats
         category = wd.find_element(by='xpath',
                             value=dataCat)
         category.click()
@@ -43,4 +43,4 @@ class TestDemo():
 
 
 if __name__ == '__main__':
-    pytest.main(['test_difClass.py::TestDemo'])
+    pytest.main(['test_difClass.py::TestCategory'])

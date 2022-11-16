@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17dc3241-d3d3-4313-95da-2ca1d190b013" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/datas/searchData.yaml" afterDir="false" />
+    <list default="true" id="17dc3241-d3d3-4313-95da-2ca1d190b013" name="Changes" comment="优化下代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case/test_clickCategory.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_clickCategory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case/test_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/搜索.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/搜索_长.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/首页.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python 测试.test_clickCategory.TestDemo.test_demo 的 Python 测试">
+  <component name="RunManager" selected="Python 测试.test_search.TestSearch.test_search 的 Python 测试">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="qmUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,7 +141,7 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="test_clickCategory.TestDemo 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="case.test_clickCategory.TestCategory 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="qmAppTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,11 +151,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_clickCategory.TestDemo&quot;" />
+      <option name="_new_target" value="&quot;case.test_clickCategory.TestCategory&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_clickCategory.TestDemo.test_demo 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="case.test_clickCategory.TestCategory.test_demo 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="qmAppTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,14 +165,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_clickCategory.TestDemo.test_demo&quot;" />
+      <option name="_new_target" value="&quot;case.test_clickCategory.TestCategory.test_demo&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_search.TestSearch.test_search 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="qmAppTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_search.TestSearch.test_search&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python 测试.test_clickCategory.TestDemo.test_demo 的 Python 测试" />
-        <item itemvalue="Python 测试.test_clickCategory.TestDemo 的 Python 测试" />
+        <item itemvalue="Python 测试.test_search.TestSearch.test_search 的 Python 测试" />
+        <item itemvalue="Python 测试.case.test_clickCategory.TestCategory 的 Python 测试" />
+        <item itemvalue="Python 测试.case.test_clickCategory.TestCategory.test_demo 的 Python 测试" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668482792452</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="优化下代码">
+      <created>1668497703601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668497703601</updated>
+    </task>
+    <task id="LOCAL-00003" summary="优化下代码">
+      <created>1668497786086</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668497786086</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +244,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+    <MESSAGE value="优化下代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化下代码" />
   </component>
 </project>
