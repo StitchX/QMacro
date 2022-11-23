@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="17dc3241-d3d3-4313-95da-2ca1d190b013" name="Changes" comment="优化下代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/test_clickCategory.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_clickCategory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/test_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/搜索.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/搜索_长.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/首页.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +30,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/QMacroQA/Desktop/code/QMacro/qmUI",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/QMacroQA/Desktop/code/QMacro/qmUI&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python 测试.test_search.TestSearch.test_search 的 Python 测试">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="qmUI" />
@@ -221,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668497786086</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="优化下代码">
+      <created>1668563471141</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668563471141</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
