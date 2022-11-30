@@ -44,7 +44,15 @@ public class A2DataClass {
 //        byte,short,char—> int —> long—> float —> double
         char a1 = 'a';
         int b1 = a1;
+//        System.out.println(a1+9); //106
         System.out.println(b1);  // 97
+
+        short b2 = 2;
+        System.out.println(b2+a1);  // byte,short,char类型运行，结果为int类型
+        System.out.println('-');
+
+        long ll = 123432L; // 不写l 默认为int类型
+//        float ff1 = 123.3;  报错
 
 
 //        强制类型转换
@@ -52,6 +60,9 @@ public class A2DataClass {
 //        char d1 = c1;   // 报错
         char d1 = (char) c1;
         System.out.println(d1);   // cainiao.A
+        int ff=99999;
+        short gg = (short) ff;
+        System.out.println(gg);  // -31073
 
     }
 }

@@ -15,5 +15,16 @@ public class A7Loop {
         for (int i:a){
             System.out.println(i);
         }
+
+
+//        带标签的break和continue
+
+        label: for (int j=0;j<10;j++){
+            for (int k=0;k<10;k++){
+                if (j==3){
+                    break label; // 指定结束循环 label
+                }
+            }
+        }
     }
 }

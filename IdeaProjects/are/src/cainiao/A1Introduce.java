@@ -46,5 +46,7 @@ public class A1Introduce {
 //    访问修饰符 关键字 返回类型 方法名 （String类 字符串数组）
     public static void main(String[] args) {
         System.out.println("hello,world");
+
+        System.out.println("输出非转移字符加斜线\\n");
     }
 }
