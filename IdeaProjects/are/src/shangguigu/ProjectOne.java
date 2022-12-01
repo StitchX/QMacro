@@ -7,7 +7,7 @@ public class ProjectOne {
 
     public static void main(String[] args) {
         double sz;
-        double zh = 0;
+        double money = 0;
         String xx;
         int i;
         String detail = "收支\t账户金额\t收支金额\t说明";
@@ -31,15 +31,16 @@ public class ProjectOne {
                     System.out.print("本次收入说明：");
                     scn.hasNext();
                     xx = String.valueOf(scn.next());
-                    zh += sz;
-                    detail = detail+"\n收入\t "+zh+"\t"+sz+' '+"\t"+xx;
+                    money += sz;
+//                    遇到的问题，\t 的表示方法不同，所以前面加了个 ' '
+                    detail = detail+"\n收入\t "+ money +"\t"+sz+' '+"\t"+xx;
                 } else if (i == 3) {
                     System.out.print("本次支出金额：");
                     sz = Double.parseDouble(scn.next());
                     System.out.print("本次支出说明：");
                     xx = String.valueOf(scn.next());
-                    zh -= sz;
-                    detail = detail+"\n支出\t "+zh+"\t"+sz+' '+"\t"+xx;
+                    money -= sz;
+                    detail = detail+"\n支出\t "+ money +"\t"+sz+' '+"\t"+xx;
                 } else if (i == 4) {
                     System.out.println("--------------已退出---------------");
                     break;
