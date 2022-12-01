@@ -1,5 +1,6 @@
 package cainiao;
 
+// Arrays 工具类
 import java.util.Arrays;
 
 public class B7ArrayClass {
@@ -15,7 +16,7 @@ public class B7ArrayClass {
 
         System.out.println(Arrays.equals(a,b));  //比较两个数组
 
-        int i=Arrays.binarySearch(a,5);
+        int i=Arrays.binarySearch(a,5);  // 二分法查找
         System.out.println(i); // 查找特定元素下标
     }
 }

@@ -76,6 +76,22 @@ public class B5Array {
         System.out.println(a1[1]);   //2.1
         System.out.println(a1.length);  //10
         System.out.println(a1[2]);   // 0
+
+
+
+//        数组的复制
+
+        int[] array1,array2;
+        array1 = new int[]{1,2,3,4,5};
+//        array2 = array1;  // 复制的索引
+
+//        复制
+//        array2 = new int[array1.length];
+//        for (int i = 0;i<array1.length;i++){
+//            array2[i] = array1[i]
+//        }
+
+
     }
 }
 
