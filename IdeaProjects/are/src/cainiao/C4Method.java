@@ -119,3 +119,32 @@ class Ou{
         System.out.println("qwe");
     }
 }
+
+
+
+class New{
+    /*
+    可变参数的形参:Java 5 新特性
+    使用：sql多条件查询
+     */
+
+//    两种使用方法
+//    new New().demo01(new String[]{"1"})  // 兼容旧版本
+//    new New().demo01("11")
+
+    void demo01(String...aa){
+        System.out.println("String...aa");
+    }
+
+//    void demo01(String[] bb){  // 就版本的可变参数的形参
+//        System.out.println("不构成重载，因为之前版本的可变参数传递就是这样的");
+//    }
+
+    void demo01(String aa){
+        System.out.println("构成重载");
+    }
+
+    void demo02(int a,double...b){
+        System.out.println("可变参数的形参必须声明在末尾");
+    }
+}

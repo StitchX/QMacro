@@ -24,6 +24,6 @@ public class B8ArrayException {
 //        情况三：
         String[] a4=new String[]{"aa","ss","ww"};
         a4[1] = null;
-        System.out.println(a4[1].toString());
+//        System.out.println(a4[1].toString());
     }
 }
