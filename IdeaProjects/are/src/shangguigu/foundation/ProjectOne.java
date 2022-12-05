@@ -1,4 +1,4 @@
-package shangguigu;
+package shangguigu.foundation;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package shangguigu;
+package shangguigu.foundation;
 // 二维数组打印一个，杨辉三角
 
 public class ProjectTwo {

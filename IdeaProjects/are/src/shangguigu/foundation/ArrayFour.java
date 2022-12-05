@@ -1,4 +1,4 @@
-package shangguigu;
+package shangguigu.foundation;
 
 /*
 数组的复制、反转、查找（线性查找，二分法）、冒泡排序、快速排序

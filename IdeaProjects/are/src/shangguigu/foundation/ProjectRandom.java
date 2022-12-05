@@ -1,4 +1,4 @@
-package shangguigu;
+package shangguigu.foundation;
 
 public class ProjectRandom {
     public static void main(String[] args) {

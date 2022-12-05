@@ -1,4 +1,4 @@
-package shangguigu;
+package shangguigu.foundation;
 /*
 面向对象练习题：
 定义类Student，包含三个属性，学号number(int)，年级state（int），成绩score（int）
