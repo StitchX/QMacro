@@ -8,7 +8,7 @@ this关键字的使用：
     2.1、在类的方法中，我们可以使用this.属性 或 this.方法 的方式，调用当前对象属性或方法。但是
        通常情况下，我们都选择省略 this. 。特殊情况下，如果方法的形参和类的属性同名时，我们必须显示
        的使用 this.变量 的方式，表明此变量是属性，而非形参。
-    2.2、在类的构造器中，我们可以使用this.属性 或 this.方法 的方式，调用当前对象属性或方法。但是
+    2.2、在类的构造器中，我们可以使用this.属性 或 this.方法 的方式，调用当前正在创建的对象属性或方法。但是
        通常情况下，我们都选择省略 this. 。特殊情况下，如果方法的形参和类的属性同名时，我们必须显示
        的使用 this.变量 的方式，表明此变量是属性，而非形参。
     3、this调用的构造器
@@ -20,16 +20,26 @@ this关键字的使用：
 
  */
 public class AM4This {
+    public static void main(String[] args) {
+        AM4This am4 = new AM4This(); // int String 默认构造器
+    }
 
     int age;
     private double ss;
     public AM4This(int age){
-        this.age = age; // 就近原则
+//        this();  // 不能所有都调用
+        this.age = age; // 就近原则 所以需要 this.属性
+        System.out.println("int");
+    }
+    public AM4This(String age){
+        this(1);  // 不能互相调用
+        System.out.println("String"); // 就近原则 所以需要 this.属性
     }
 
     public AM4This(){
-        this.eat();
-        System.out.println('1');
+        this("qq");
+//        this.eat();
+        System.out.println("默认构造器");
     }
 
     public AM4This(double b){
@@ -37,9 +47,17 @@ public class AM4This {
         System.out.println("调用构造器");
     }
 
+    public double getSs() {
+        return ss;
+    }
+
+    public void setSs(double ss) {
+        this.ss = ss; //  this.方法
+    }
+
     public void eat(){
         this.age = 19;
-        this.drink();
+        this.drink();  //  this.方法
         System.out.println("调用方法");
     }
 
