@@ -7,6 +7,7 @@ import shangguigu.foundation.project2.bean.Customer;
  */
 
 /*
+第二步：
 CustomerList为Customer对象的管理模块，内部使用数组管理一组Customer对象
 本类封装以下信息：
     Customer[] customers;  // 用来保存客户对象的数组

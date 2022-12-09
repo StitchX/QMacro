@@ -68,7 +68,7 @@ public class Customer {
     Customer(){
 
     }
-    Customer(String name,char gender,int age,String phone,String email){
+    public Customer(String name, char gender, int age, String phone, String email){
         this.name = name;
         this.gender = gender;
         this.age = age;

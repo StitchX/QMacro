@@ -12,6 +12,8 @@ package shangguigu.foundation;
     4、声明和使用数组
     5、数组的插入、删除和替换
     6、关键字的使用：this
+
+在实际工作中，每天一般写两三百行代码
  */
 public class Project2 {
 }
