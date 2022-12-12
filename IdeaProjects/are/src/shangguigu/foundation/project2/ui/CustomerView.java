@@ -56,7 +56,6 @@ public class CustomerView {
                     listAllCustomer();
                     break;
                 case '5':
-
                     System.out.print("确认是否退出（Y/N）:");
                     char isExit = CMUtility.readConfirmSelection();
                     if (isExit == 'Y'){
@@ -96,7 +95,7 @@ public class CustomerView {
 
     }
     /**
-     * 修改客户操作
+     * 修改客户操
      */
     public void modifyCustomer(){
         System.out.println("--------------修改客户-----------------");
@@ -115,27 +114,26 @@ public class CustomerView {
                 break;
             }
 
-            //修改客户信息
-            System.out.print("姓名（"+cust.getName()+"）：");
-            String name = CMUtility.readString(10,cust.getName());
-            System.out.print("性别（"+cust.getName()+"）：");
-            char gender = CMUtility.readChar(cust.getGender());
-            System.out.print("年龄（"+cust.getAge()+"）：");
-            int age = CMUtility.readInt(cust.getAge());
-            System.out.print("电话（"+cust.getPhone()+"）：");
-            String phone = CMUtility.readString(10,cust.getPhone());
-            System.out.print("邮箱（"+cust.getEmail()+"）：");
-            String email = CMUtility.readString(10,cust.getEmail());
+        }
+        //修改客户信息
+        System.out.print("姓名（"+cust.getName()+"）：");
+        String name = CMUtility.readString(10,cust.getName());
+        System.out.print("性别（"+cust.getName()+"）：");
+        char gender = CMUtility.readChar(cust.getGender());
+        System.out.print("年龄（"+cust.getAge()+"）：");
+        int age = CMUtility.readInt(cust.getAge());
+        System.out.print("电话（"+cust.getPhone()+"）：");
+        String phone = CMUtility.readString(10,cust.getPhone());
+        System.out.print("邮箱（"+cust.getEmail()+"）：");
+        String email = CMUtility.readString(10,cust.getEmail());
 
-            Customer newCust = new Customer(name,gender,age,phone,email);
+        Customer newCust = new Customer(name,gender,age,phone,email);
 
-            boolean isRepalaced = customerList.replaceCustomer(number-1,newCust);
-            if (isRepalaced){
-                System.out.println("------------------修改完成------------------");
-            }else {
-                System.out.println("-------------------修改失败------------------");
-            }
-
+        boolean isRepalaced = customerList.replaceCustomer(number-1,newCust);
+        if (isRepalaced){
+            System.out.println("------------------修改完成------------------");
+        }else {
+            System.out.println("-------------------修改失败------------------");
         }
 
     }
@@ -144,6 +142,28 @@ public class CustomerView {
      * 删除客户操作
      */
     public void deleteCustomer(){
+        System.out.println("---------------------删除客户-------------------------");
+        Customer cust;
+        int number;
+        for (;;){
+            System.out.print("请选择待删除客户编号（-1退出）：");
+            number = CMUtility.readInt();
+            if (number == -1){
+                return;
+            }
+            cust = customerList.getCustomer(number-1);
+            if (cust == null){
+                System.out.println("无法找到指定客户!");
+            }else {  // 找到了相应的客户
+                break;
+            }
+        }
+        boolean isDelete = customerList.deleteCustomer(number-1);//replaceCustomer(number-1,newCust);
+        if (isDelete){
+            System.out.println("------------------删除完成------------------");
+        }else {
+            System.out.println("-------------------删除失败------------------");
+        }
 
     }
 
