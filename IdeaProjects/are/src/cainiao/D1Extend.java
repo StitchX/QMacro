@@ -16,11 +16,12 @@ public class D1Extend {
 
 
     继承的特性
-        1. 子类拥有父类非 private 的属性、方法。
+        1. 子类拥有父类非 private 的属性、方法。(继承了所有属性和方法，只是不能直接调用，通过get set 方法，堆中有private属性)
         2. 子类可以拥有自己的属性和方法，即子类可以对父类进行扩展。
         3. 子类可以用自己的方式实现父类的方法。
         4. Java 的继承是单继承，但是可以多重继承，单继承就是一个子类只能继承一个父类，多重继承就是，
-            例如 cainiao.B 类继承 cainiao.A 类，C 类继承 cainiao.B 类，所以按照关系就是 cainiao.B 类是 C 类的父类，cainiao.A 类是 cainiao.B 类的父类，这是 Java 继承区别于 C++ 继承的一个特性。
+            例如 cainiao.B 类继承 cainiao.A 类，C 类继承 cainiao.B 类，所以按照关系就是 cainiao.B 类是 C 类的父类，
+            cainiao.A 类是 cainiao.B 类的父类，这是 Java 继承区别于 C++ 继承的一个特性。
         5. 提高了类之间的耦合性（继承的缺点，耦合度高就会造成代码之间的联系越紧密，代码独立性越差）。
      */
 
